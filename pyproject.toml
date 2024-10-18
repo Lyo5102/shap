@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fake-face-test-web"
+version = "0.1.0"
+description = ""
+authors = ["wenliangyeoh <wlyeoh@cc.saga-u.ac.jp>"]
+readme = "README.md"
+packages = [{ include = "fake_face_test_web" }]
+
+[tool.poetry.dependencies]
+python = "~3.8"
+nicegui = "^1.2.21"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

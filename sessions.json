@@ -1,0 +1,74 @@
+{
+  "testing": {
+    "p_id": 0,
+    "condition": "test",
+    "question_file": "questions.csv",
+    "show_ai_results": true,
+    "show_shap": true
+  },
+  
+  "1": {
+    "p_id": 0,
+    "condition": "nosuggestion1",
+    "question_file": "NO_01.csv",
+    "show_ai_results": false,
+    "show_shap": false
+  },
+
+  "2": {
+    "p_id": 0,
+    "condition": "nosuggestion2",
+    "question_file": "NO_02.csv",
+    "show_ai_results": true,
+    "show_shap": true
+  },
+
+  "3": {
+    "p_id": 0,
+    "condition": "nosuggestion3",
+    "question_file": "NO_03.csv",
+    "show_ai_results": true,
+    "show_shap": true
+  },
+
+  "4": {
+    "p_id": 0,
+    "condition": "nosuggestion4",
+    "question_file": "NO_4.csv",
+    "show_ai_results": false,
+    "show_ai_confidence": false
+  },
+
+  "5": {
+    "p_id": 0,
+    "condition": "highconf",
+    "question_file": "A.csv",
+    "show_ai_results": true,
+    "show_ai_confidence": true
+  },
+
+  "6": {
+    "p_id": 0,
+    "condition": "highpre",
+    "question_file": "B.csv",
+    "show_ai_results": true,
+    "show_ai_confidence": false
+  },
+
+  "7": {
+    "p_id": 0,
+    "condition": "lowconf",
+    "question_file": "C.csv",
+    "show_ai_results": true,
+    "show_ai_confidence": true
+  },
+
+  "8": {
+    "p_id": 0,
+    "condition": "lowpre",
+    "question_file": "D.csv",
+    "show_ai_results": true,
+    "show_ai_confidence": false
+  }
+
+}
